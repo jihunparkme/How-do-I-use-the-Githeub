@@ -94,9 +94,68 @@ Let's use github well !!
 ## [ Commit ]
 
 - 작은 단계로 커밋하여 코드 개발 과정을 가시적으로 보여줘함.
+
 - 메서드 리팩터링이나 새로운 메서드 또는 클래스를 추가할 때마다 커밋
+
 - 실험이나 성능 튜닝을 할 때도 각 단계별로 커밋
+
 - 소스 코드 변경 내역이 없을 때는 커밋 X
+
+
+repository 변경 사항 확인
+```
+$ git diff
+```
+
+git 상태 확인
+
+```
+$ git status
+```
+
+log 확인
+
+```
+$ git log
+```
+
+커밋할 목록에 파일 추가
+
+```
+$ git add [fileName] or -A
+```
+
+커밋하기
+
+```
+$ git commit -sm "[commit message]"
+```
+
+Github 원격 저장소에 push
+
+```
+$ git push [alias] master
+```
+
+--------------
+
+새로운 Github 원격 저장소 등록 시
+
+```
+$ git remote [alias] [repository URL]
+```
+
+별칭, 원격 저장소 확인
+
+```
+$ git remote -v
+```
+
+로컬에 새로운 폴더를 생성했을 경우 git 초기화
+
+```
+$ git init
+```
 
 
 
@@ -111,19 +170,21 @@ Let's use github well !!
 ### Type: 제목(Title)
 - 커밋 제목
 
-```Docs: Edit README.md to include New Features Use-Cases```
+> Docs: Edit README.md to include New Features Use-Cases
 
 이와 같은 방법으로 작성 (총 글자 수 50자)
 
 - 타입 라벨 
 
-> feat: 새로운 기능을 추가할 경우
+```
+feat: 새로운 기능을 추가할 경우
 fix: 버그를 고친 경우
 docs: 문서 수정한 경우
 style: 코드 포맷 변경, 세미 콜론 누락의 경우(코드 수정이 없는 경우)
 refactor: 프로덕션 코드 리팩터링
 test: 테스트 추가, 테스트 리팩터링 (프로덕션 코드 변경 없음)
 chore: 빌드 테스크 업데이트, 패키지 매니저 설정할 경우 (프로덕션 코드 변경 없음)
+```
 
 ### 본문(Body)
 
@@ -139,4 +200,4 @@ See also : #123, #456
 
 
 
-출처：<http://sujinlee.me/professional-github/>
+참고：<http://sujinlee.me/professional-github/>
