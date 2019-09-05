@@ -2,7 +2,7 @@
 
 Let's use github well !!
 
-
+<br/>
 
 
 ## [ write a project introduction ]
@@ -90,6 +90,8 @@ Let's use github well !!
 
 - 신뢰성을 위해 프로젝트 담당자 또는 팀원들의 깃허브 프로필 링크, SNS, 이메일 등 연락처를 기입
 
+<br/>
+
 
 ## [ Commit ]
 
@@ -157,7 +159,7 @@ $ git remote -v
 $ git init
 ```
 
-
+<br/>
 
 ## [ Commit Message ]
 
@@ -198,6 +200,6 @@ chore: 빌드 테스크 업데이트, 패키지 매니저 설정할 경우 (프�
 > Resolves : #94
 See also : #123, #456
 
-
+<br/>
 
 참고：<http://sujinlee.me/professional-github/>
