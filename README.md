@@ -161,6 +161,8 @@ $ git remote -v
 $ git init
 ```
 
+[git_management](https://github.com/jihunparkme/How-do-I-use-the-Githeub/blob/master/git_management.md)
+
 <br/>
 
 ## [ Commit Message ]
