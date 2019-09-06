@@ -129,7 +129,7 @@ repository 변경 사항 확인
 $ git diff
 ```
 
-git 상태 확인
+git 상태 확인(local repository 변경 사항)
 
 ```
 $ git status
@@ -143,10 +143,15 @@ $ git log
 
 --------------
 
+로컬에 새로운 폴더를 생성했을 경우 git 초기화
+
+```
+$ git init
+```
 새로운 Github 원격 저장소 등록 시
 
 ```
-$ git remote [alias] [repository URL]
+$ git remote add [alias] [repository URL]
 ```
 
 별칭, 원격 저장소 확인
@@ -155,11 +160,6 @@ $ git remote [alias] [repository URL]
 $ git remote -v
 ```
 
-로컬에 새로운 폴더를 생성했을 경우 git 초기화
-
-```
-$ git init
-```
 
 - Another way to manage git : [git_management](https://github.com/jihunparkme/How-do-I-use-the-Githeub/blob/master/git_management.md)
 
