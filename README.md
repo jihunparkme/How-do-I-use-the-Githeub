@@ -119,7 +119,7 @@ $ git commit -sm "[commit message]"
 Github 원격 저장소에 push
 
 ```
-$ git push [alias] master
+$ git push [name] master
 ```
 -----
 

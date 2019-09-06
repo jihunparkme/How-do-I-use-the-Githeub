@@ -19,7 +19,7 @@ Manage git !
 3. 저장소 url 변경
 
    ```
-   $ git remote set-url [NewRepositoryURL]
+   $ git remote set-url [name] [newURL]
    ```
 
    <br/>
