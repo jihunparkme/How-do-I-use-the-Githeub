@@ -104,23 +104,6 @@ Let's use github well !!
 - 소스 코드 변경 내역이 없을 때는 커밋 X
 
 
-repository 변경 사항 확인
-```
-$ git diff
-```
-
-git 상태 확인
-
-```
-$ git status
-```
-
-log 확인
-
-```
-$ git log
-```
-
 커밋할 목록에 파일 추가
 
 ```
@@ -137,6 +120,25 @@ Github 원격 저장소에 push
 
 ```
 $ git push [alias] master
+```
+-----
+
+repository 변경 사항 확인
+
+```
+$ git diff
+```
+
+git 상태 확인
+
+```
+$ git status
+```
+
+log 확인
+
+```
+$ git log
 ```
 
 --------------
